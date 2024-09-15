@@ -12,6 +12,7 @@ import { faComment } from "@fortawesome/free-solid-svg-icons";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 import careerImg from "../media/pictures/careerImg.jpg";
 import cropLogo from "../media/pictures/crop-logo.png";
@@ -20,6 +21,8 @@ import imgTwo from "../media/pictures/2.jpg";
 import imgThree from "../media/pictures/3.jpg";
 import imgFour from "../media/pictures/4.jpg";
 import imgFive from "../media/pictures/5.jpg";
+import careerSecondImg from "../media/pictures/career-second-img.jpg";
+import boxlogo from "../media/pictures/box-logo.jpg";
 
 function Career({ logo }) {
   useEffect(() => {
@@ -122,7 +125,7 @@ function Career({ logo }) {
                 with offers that look similar to this. All our open positions
                 are available <u>here</u>.
               </p>
-              <button id="ba">View all open positions</button>
+              <button className="ba">View all open positions</button>
             </div>
             <div>
               <p id="pb">
@@ -153,7 +156,7 @@ function Career({ logo }) {
             <span>.</span>
           </div>
           <div id="pd">
-            <h3 id="pd-ha">Why work at Medium</h3>
+            <h3 className="pd-ha">Why work at Medium</h3>
             <h3 className="pd-hr">A meaningful mission</h3>
             <p>
               From our engineers to our content ops team, employees at Medium
@@ -210,7 +213,84 @@ function Career({ logo }) {
             <span>.</span>
             <span>.</span>
           </div>
-          
+          <div>
+            <h3 className="pd-ha">join our team</h3>
+            <button className="ba">View all open positions</button>
+          </div>
+        </div>
+        <div id="second-img-con">
+          <img id="second-img" src={careerSecondImg} alt="pic" />
+        </div>
+        <div className="career-content-pi">
+          <h3 className="pd-ha head">Learn more about Medium</h3>
+          <div id="box">
+            <div id="box-text">
+              <h3>The Medium Blog</h3>
+              <p>The official Medium blog.</p>
+              <p>blog.medium.com</p>
+            </div>
+
+            <img src={boxlogo} alt="logo" />
+          </div>
+          <div id="post-box-btn">
+            <button>Medium</button>
+            <button>Career</button>
+            <button>jobs</button>
+          </div>
+          <div className="icons second-icons">
+            <div id="group-one">
+              <div className="tooltip-container">
+                <FontAwesomeIcon className="job-icon" icon={faHandsClapping} />
+                <div className="tooltip-text">Clap</div>
+              </div>
+              <span>13.4k</span>
+
+              <div className="tooltip-container">
+                <FontAwesomeIcon className="job-icon" icon={faComment} />
+                <div className="tooltip-text">Comments</div>
+              </div>
+            </div>
+
+            <div id="group-two">
+              <div className="tooltip-container">
+                <FontAwesomeIcon className="job-icon" icon={faBookmark} />
+                <div className="tooltip-text">Bookmark</div>
+              </div>
+
+              <div className="tooltip-container">
+                <FontAwesomeIcon
+                  className="job-icon"
+                  icon={faArrowUpFromBracket}
+                />
+                <div className="tooltip-text">Share</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="dynamic-cards-con">
+          <div id="cards-con-content">
+            <div className="career-jobs">
+              <div id="profile-logo">
+                <img id="card-profile-img" src={cropLogo} alt="profile" />
+                <img
+                  className="profile-second-img"
+                  src={cropLogo}
+                  alt="profile"
+                />
+              </div>
+            </div>
+            <div id="profile-text">
+              
+              <div><h3 className="pd-hr">Written by Jobs @ Medium</h3>
+              <button>7.3K Followers</button>
+              <span>· Editor for</span>
+              <button>Jobs at Medium</button></div>
+              <div id="text-btn-con">
+                <button>Follow</button>
+                <FontAwesomeIcon id="text-btn-con-icon" icon={faEnvelope} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <LoginSignupModal />

@@ -6,7 +6,7 @@
   width: 100vw;
 }
 
-#icon{
+#icon {
   border-radius: 15px;
 }
 
@@ -183,8 +183,8 @@ h2 {
   color: black;
 }
 
-#signup-btn:hover{
-background-color: #ffffff;
+#signup-btn:hover {
+  background-color: #ffffff;
 }
 
 .about-body {
@@ -226,7 +226,9 @@ background-color: #ffffff;
   height: fit-content;
 }
 
-.divOne, .divTwo, .divThree {
+.divOne,
+.divTwo,
+.divThree {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 70px 20px;
@@ -242,7 +244,7 @@ background-color: #ffffff;
   border-bottom: 2px solid white;
 }
 
-.divThree:hover{
+.divThree:hover {
   border-bottom: 1px solid #242424;
 }
 
@@ -250,7 +252,6 @@ background-color: #ffffff;
 .divTwo:hover,
 .divThree:hover {
   background-color: #ffffff;
-  
 }
 
 .divOne:hover #optionOne,
@@ -261,7 +262,7 @@ background-color: #ffffff;
 
 .divOne:hover .faIcon,
 .divTwo:hover .faIcon,
-.divThree:hover .faIcon{
+.divThree:hover .faIcon {
   color: #242424;
 }
 
@@ -286,16 +287,15 @@ background-color: #ffffff;
   font-size: 2rem;
 }
 
-.about-footer{
+.about-footer {
   display: flex;
   align-items: center;
   background-color: #ffffff;
   width: 100%;
   padding: 10px 0px 10px 0px;
-  
 }
 
-.footer-btn{
+.footer-btn {
   margin-right: 7px;
   color: inherit;
   font-size: 0.8rem;
@@ -303,15 +303,23 @@ background-color: #ffffff;
 /* Career Page */
 /* Career Page */
 
-
-.career-body{
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.career-body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 0px;
   margin: 0px;
 }
-.career-header{
+.career-header {
   position: relative;
   top: 0px;
   display: flex;
@@ -321,7 +329,7 @@ background-color: #ffffff;
   align-items: center;
 }
 
-.career-logo{
+.career-logo {
   margin-left: 0px;
   height: 40px;
 }
@@ -332,7 +340,6 @@ background-color: #ffffff;
 }
 
 .search-input {
- 
   border-radius: 40px;
   padding: 10px 35px;
   background-color: #f9f9f9;
@@ -348,22 +355,20 @@ background-color: #ffffff;
   color: #7e7e7e;
 }
 
-.header-right{
+.header-right {
   position: absolute;
   right: 20px;
   display: flex;
   align-items: center;
   gap: 20px;
- 
 }
 
-
-.user-icon{
+.user-icon {
   position: relative;
   font-size: 200%;
 }
 
-.signup-btn{
+.signup-btn {
   color: #ffffff;
   background-color: #2a8636;
   border-radius: 16px;
@@ -371,59 +376,54 @@ background-color: #ffffff;
   border: none;
 }
 
-.signin-btn{
+.signin-btn {
   border: none;
   background-color: transparent;
-  
 }
 /* End on Career Header */
 
 /* Career Body */
 
-.career-img{
+.career-img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-
-.career-content{
+.career-content {
   display: flex;
   flex-direction: column;
   padding: 0px 300px;
-  
 }
-#main-text{
+#main-text {
   display: flex;
   flex-direction: column;
 }
-.career-content h2{
+.career-content h2 {
   font-size: 4rem;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
 
-#p1{
+#p1 {
   color: rgb(118, 118, 118);
   font-size: 1.7rem;
   font-weight: 400;
   margin: 20px 0px;
 }
 
-.career-jobs{
+.career-jobs {
   display: flex;
   align-items: center;
 }
 
-#jobs-text{
+#jobs-text {
   display: flex;
   flex-direction: column;
-  
-
 }
 
-.profile-img{
+.profile-img {
   display: inline;
   width: 50px;
   height: 50px;
@@ -435,8 +435,7 @@ background-color: #ffffff;
   justify-content: center;
 }
 
-
-#profile-logo{
+#profile-logo {
   display: flex;
 }
 
@@ -445,11 +444,10 @@ background-color: #ffffff;
   display: inline;
   width: 50%;
   height: auto;
-  object-fit: auto; 
- 
+  object-fit: auto;
 }
 
-.second-profile-img{
+.second-profile-img {
   width: 22px;
   height: 22px;
   position: relative;
@@ -458,14 +456,13 @@ background-color: #ffffff;
   border: 2px solid #ffffff;
 }
 
-#jobs-upperline{
+#jobs-upperline {
   display: flex;
   padding: 0px;
-  
 }
 
 .jobs-btn,
-#follow-btn{
+#follow-btn {
   background-color: transparent;
   font-size: medium;
   font-weight: 400;
@@ -474,54 +471,51 @@ background-color: #ffffff;
   cursor: pointer;
 }
 
-.jobs-btn:hover{
+.jobs-btn:hover {
   text-decoration: underline;
 }
 
-#follow-btn{
+#follow-btn {
   color: rgb(42, 170, 54);
 }
 
-#follow-btn:hover{
+#follow-btn:hover {
   color: rgb(42, 100, 54);
 }
 
-.career-jobs span{
+.career-jobs span {
   margin: 0px 5px;
   align-self: center;
 }
 
-.icons{
+.icons {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   padding: 15px 0px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  
 }
 
-#group-one
-{
+#group-one {
   display: flex;
   gap: 20px;
   cursor: pointer;
 }
 
-#group-two{
+#group-two {
   display: flex;
   gap: 35px;
   cursor: pointer;
 }
 
-#group-one span{
+#group-one span {
   color: rgb(163, 160, 160);
 }
 
-
-.job-icon{
+.job-icon {
   font-size: 1.3rem;
-  color: rgb(218, 218, 218)
+  color: rgb(218, 218, 218);
 }
 
 .tooltip-container {
@@ -541,7 +535,7 @@ background-color: #ffffff;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%; 
+  bottom: 125%;
   left: 50%;
   margin-left: -60px;
   opacity: 0;
@@ -553,81 +547,80 @@ background-color: #ffffff;
   opacity: 1;
 }
 
-#pa{
+#pa {
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 
-#pb{
+#pb {
   color: rgb(70, 66, 66);
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#pc{
+#pc {
   color: rgb(70, 66, 66);
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 
-.link{
+.link {
   text-decoration: underline;
   color: #242424;
   cursor: pointer;
 }
 
-#ba{
+.ba {
   border: none;
   background-color: transparent;
-  text-decoration: underline; 
+  text-decoration: underline;
   font-size: 1.2rem;
   text-decoration-thickness: 2px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding-bottom: 50px;
   font-weight: 400;
   color: rgb(65, 64, 64);
 }
 
-.dots{
+.dots {
   display: flex;
   gap: 22px;
   font-size: 2rem;
   align-self: center;
 }
 
-#pd{
+#pd {
   display: flex;
   flex-direction: column;
   width: inherit;
 }
 
-#pd p{
+#pd p {
   color: rgb(70, 66, 66);
   font-size: 1.5rem;
   font-weight: 400;
   min-width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-#pd-ha{
+.pd-ha {
   font-size: 1.7rem;
   font-weight: 700;
 }
 
-.pd-hr{
+.pd-hr {
   font-size: 1.5rem;
 }
 
-#pictures-container{
+#pictures-container {
   margin: 30px 0px;
   display: flex;
   flex-direction: column;
@@ -635,15 +628,14 @@ background-color: #ffffff;
   padding: 0px 30px;
 }
 
-#upper-con{
+#upper-con {
   justify-content: center;
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
-  
 }
 
-#lower-con{
+#lower-con {
   justify-content: center;
   display: flex;
   gap: 10px;
@@ -654,16 +646,14 @@ background-color: #ffffff;
 }
 
 .thrid-grp,
-.second-grp{
-  
+.second-grp {
   width: 100%;
   height: 400px;
   object-fit: auto;
 }
 
-.thrid-grp{
+.thrid-grp {
   width: 50%;
- 
 }
 
 .para-e {
@@ -671,6 +661,141 @@ background-color: #ffffff;
   font-size: 1.5rem;
   font-weight: 400;
   min-width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+#second-img-con {
+  max-width: fit-content;
+  margin: 20px 0px;
+}
+
+#second-img {
+  height: 800px;
+  width: auto;
+  align-self: center;
+  object-fit: cover;
+}
+
+.career-content-pi {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.head {
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+}
+#box {
+  border: 1px solid rgb(242, 242, 242);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+#box-text h3 {
+  margin: 5px;
+  color: #242424;
+}
+
+#box-text p {
+  margin: 5px;
+  color: #6b6b6b;
+}
+
+#post-box-btn {
+  padding: 20px 0px;
+  display: flex;
+  gap: 15px;
+  border: 15pc;
+}
+
+#post-box-btn button {
+  border-radius: 15px;
+  border: none;
+  padding: 8px 16px;
+}
+
+.second-icons {
+  border: none;
+}
+
+#dynamic-cards-con {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: center;
+}
+
+#cards-con-content {
+  background-color: aquamarine;
+  width: 54%;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#card-profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.profile-second-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  top: 35px;
+  right: 9px;
+}
+
+#profile-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#profile-text button{
+  border: none;
+  background-color: transparent;
+  color: rgb(36, 46, 49);
+  cursor: pointer;
+}
+
+#profile-text span{
+  color: #343636;
+  font-size: 0.9rem;
+}
+
+#text-btn-con{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+#text-btn-con button{
+  cursor: pointer;
+  background-color: #2a8636;
+  padding: 10px 20px;
+  border-radius: 18px;
+  color: #ffffff;
+}
+
+#text-btn-con-icon{
+  color: #ffffff;
+  padding: 10px;
+  background-color: #2a8636;
+  border-radius: 50%;
+}
