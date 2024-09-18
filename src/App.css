@@ -729,11 +729,11 @@ h2 {
   height: fit-content;
   background-color: rgb(249, 249, 249);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#cards-con-content {
-  background-color: aquamarine;
+.cards-con-content {
   width: 54%;
   padding: 100px 50px;
   display: flex;
@@ -741,11 +741,11 @@ h2 {
   align-items: flex-start;
 }
 
-#card-profile-img {
+#card-profile-img-second {
+  background-color: black;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: black;
 }
 
 .profile-second-img {
@@ -762,7 +762,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(230, 230, 230);
   width: 100%;
   padding-bottom: 20px;
 }
@@ -798,4 +798,171 @@ h2 {
   padding: 10px;
   background-color: #2a8636;
   border-radius: 50%;
+}
+
+.card-profile-img {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  
+}
+
+#profile-job{
+  display: flex;
+  gap: 5px;
+}
+
+#profile-text-two-con{ 
+  display: flex;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding-bottom: 20px;
+}
+.sbtn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#re-profile-text-two{
+  width: 100%;
+}
+
+#re-profile-text-two p{
+  margin-left: 5px;
+  width: 80%;
+
+}
+
+
+.text-icons-con{
+  display: flex;
+  justify-content:space-between ;
+  width: 65%;
+  align-items: center;
+}
+.sbtn,
+.text-icons{
+  display: flex;
+  gap: 5px;
+  color: #6b6b6b;
+  align-items: center;
+}
+
+.sicon{
+  font-size: 0.9em;
+}
+
+.sicon2{
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+#bookmark-con{
+  font-size: 0.9em;
+  color: #6b6b6b;
+}
+
+#building-pic{
+  height: 100px;
+  width: auto;
+  align-self: center;
+  margin-top: 60px;
+}
+
+#two-btns-con{
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+#two-btns-con button{
+ background-color: transparent;
+ border-radius: 20px;
+ padding: 12px 30px;
+ border: 0.5px solid black;
+ margin-top: 30px;
+}
+#border{ 
+  margin-bottom: 10px;
+  border-top: 1px solid rgb(230, 230, 230);
+  width: 100%;
+}
+
+/* Card */
+
+.card-row-con{
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #e0dada;
+  padding:50px 0px;
+}
+
+.card-custom{
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;;
+}
+
+.card-img{
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+  
+
+}
+
+.icon-and-text{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-profile{
+  display: block;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+
+
+.card h3,
+.card p{
+  margin: 5px;
+ 
+}
+
+.card-icons-con{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-card-icons{
+  color: rgb(170 , 170, 170);
+  margin-left: 5px;
+  font-size: 0.9rem;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  
+}
+#set-one-icons{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.star-icon{
+  color: gold;
+}
+
+#recommended-heading{
+  font-size: 1.7em;
+  padding: 30px 0px 0px 17px;
+  margin: 0px;
 }

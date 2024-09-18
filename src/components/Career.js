@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Media import
 
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch} from "@fortawesome/free-solid-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { faHandsClapping } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,8 @@ import { faComment } from "@fortawesome/free-solid-svg-icons";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 import careerImg from "../media/pictures/careerImg.jpg";
 import cropLogo from "../media/pictures/crop-logo.png";
@@ -23,7 +24,14 @@ import imgFour from "../media/pictures/4.jpg";
 import imgFive from "../media/pictures/5.jpg";
 import careerSecondImg from "../media/pictures/career-second-img.jpg";
 import boxlogo from "../media/pictures/box-logo.jpg";
-
+import building from "../media/pictures/building.jpg";
+import resume from "../media/pictures/s-resume.jpg";
+import alexander from "../media/pictures/alexander.png";
+import zulieImg from "../media/pictures/zulie.jpg";
+import zulieDp from "../media/pictures/zulie_dp.png";
+import rebecaImg from "../media/pictures/rebecca_img.jpg";
+import rebecaDp from "../media/pictures/rebecca_dp.jpg";
+import gifCard from "../media/pictures/r2-c2gif.gif"
 function Career({ logo }) {
   useEffect(() => {
     document.title =
@@ -268,10 +276,10 @@ function Career({ logo }) {
           </div>
         </div>
         <div id="dynamic-cards-con">
-          <div id="cards-con-content">
+          <div className="cards-con-content">
             <div className="career-jobs">
               <div id="profile-logo">
-                <img id="card-profile-img" src={cropLogo} alt="profile" />
+                <img id="card-profile-img-second" src={cropLogo} alt="profile" />
                 <img
                   className="profile-second-img"
                   src={cropLogo}
@@ -280,15 +288,192 @@ function Career({ logo }) {
               </div>
             </div>
             <div id="profile-text">
-              
-              <div><h3 className="pd-hr">Written by Jobs @ Medium</h3>
-              <button>7.3K Followers</button>
-              <span>· Editor for</span>
-              <button>Jobs at Medium</button></div>
+              <div>
+                <h3 className="pd-hr">Written by Jobs @ Medium</h3>
+                <button>7.3K Followers</button>
+                <span>· Editor for</span>
+                <button>Jobs at Medium</button>
+              </div>
               <div id="text-btn-con">
                 <button>Follow</button>
                 <FontAwesomeIcon id="text-btn-con-icon" icon={faEnvelope} />
               </div>
+            </div>
+            <div id="profile-text-two-con">
+              <div id="profile-text-two">
+                <h4>More from Jobs @ Medium and Jobs at Medium</h4>
+                <div id="profile-job">
+                  <img
+                    className="card-profile-img profile-img"
+                    src={cropLogo}
+                    alt="profile"
+                  />
+                  <button className="sbtn">Jobs @ Medium</button>
+                </div>
+                <div id="re-profile-text-two">
+                  <button className="sbtn">
+                    <h3 className="pd-hr">
+                      A Guide to technical interview at Medium
+                    </h3>
+                  </button>
+                  <p>
+                    Here at Medium, we realize that being asked to solve an
+                    unfamiliar problem on a whiteboard, is not the same as
+                    coding i…
+                  </p>
+                  <div className="text-icons-con">
+                    <div className="text-icons">
+                      <button className="sbtn">Dec 9, 2016</button>
+                      <FontAwesomeIcon
+                        className="sicon"
+                        icon={faHandsClapping}
+                      />
+                      <span>661</span>
+                      <FontAwesomeIcon className="sicon2" icon={faComment} />
+                      <span>3</span>
+                    </div>
+                    <div id="bookmark-con">
+                      <FontAwesomeIcon icon={faBookmark} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img id="building-pic" src={building} alt="building pic" />
+            </div>
+            <div id="two-btns-con">
+              <button>See all from Jobs @ Medium</button>
+              <button>See all from Jobs at Medium</button>
+            </div>
+          </div>
+          <div id="border"></div>
+          {/* Upto boder section */}
+          <div className="card-con-content">
+            <h3 id="recommended-heading">Recommended from Medium</h3>
+            <div className="card-row-con">
+              <div className="card card-custom">
+                {" "}
+                {/* R1-C1*/}
+                <img className="card-img" src={resume} alt="resume" />
+                <div className="icon-and-text">
+                  <img className="card-profile" src={alexander} alt=""/>
+                  <p>Alexander Nguyen in Level up coding</p>
+                </div>
+                <h3>
+                  The resume that got a software engineer a $300,000 job at
+                  Google.
+                </h3>
+                <p>1-page. Well-formatted.</p>
+                <div className="card-icons-con">
+                  <div id="set-one-icons">
+                    <FontAwesomeIcon className="star-icon" icon={faStar} />
+                    <span className="main-card-icons">Jun 1</span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faHandsClapping} /> 21k
+                    </span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faComment} /> 402
+                    </span>
+                  </div>
+                  <FontAwesomeIcon
+                    className="main-card-icons"
+                    icon={faBookmark}
+                  />
+                </div>
+              </div>
+              <div className="card card-custom">
+                {" "}
+                {/* R1-C2*/}
+                <img className="card-img" src={zulieImg} alt="resume" />
+                <div className="icon-and-text">
+                  <img className="card-profile" src={zulieDp} alt="" />
+                  <p>Zulie Rane in Zulie Writes</p>
+                </div>
+                <h3>
+                A Complete Beginner’s Guide on How to Earn by Writing Articles
+                
+                </h3>
+                <p>This is for you if you have never earned a penny in your life from writing — but you want...</p>
+                <div className="card-icons-con">
+                  <div id="set-one-icons">
+                    <FontAwesomeIcon className="star-icon" icon={faStar} />
+                    <span className="main-card-icons">Dec 17, 2023</span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faHandsClapping} /> 23k
+                    </span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faComment} /> 553
+                    </span>
+                  </div>
+                  <FontAwesomeIcon
+                    className="main-card-icons"
+                    icon={faBookmark}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="card-row-con">
+              <div className="card card-custom">
+                {" "}
+                {/* R2-C1*/}
+                <img className="card-img" src={rebecaImg} alt="resume" />
+                <div className="icon-and-text">
+                  <img className="card-profile" src={rebecaDp} alt="" />
+                  <p>Rebeca in ILLUMINATION</p>
+                </div>
+                <h3>
+                I Started Waking up at 4:30 a.m. Daily— This Is What Happened
+                </h3>
+                <p>For 21 days, I wake up at 4:30. The results were CRAZY.</p>
+                <div className="card-icons-con">
+                  <div id="set-one-icons">
+                    <FontAwesomeIcon className="star-icon" icon={faStar} />
+                    <span className="main-card-icons">Apr 10</span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faHandsClapping} /> 8.2k
+                    </span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faComment} /> 216
+                    </span>
+                  </div>
+                  <FontAwesomeIcon
+                    className="main-card-icons"
+                    icon={faBookmark}
+                  />
+                </div>
+              </div>
+              <div className="card card-custom">
+                {" "}
+                {/* R2-C2*/}
+                <img className="card-img" src={gifCard} alt="" />
+                <div className="icon-and-text">
+                  <img className="card-profile" src={alexander} alt="" />
+                  <p>Alexander Nguyen in Level up coding</p>
+                </div>
+                <h3>
+                  The resume that got a software engineer a $300,000 job at
+                  Google.
+                </h3>
+                <p>1-page. Well-formatted.</p>
+                <div className="card-icons-con">
+                  <div id="set-one-icons">
+                    <FontAwesomeIcon className="star-icon" icon={faStar} />
+                    <span className="main-card-icons">Jun 1</span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faHandsClapping} /> 21k
+                    </span>
+                    <span className="main-card-icons">
+                      <FontAwesomeIcon icon={faComment} /> 402
+                    </span>
+                  </div>
+                  <FontAwesomeIcon
+                    className="main-card-icons"
+                    icon={faBookmark}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="card-row-con">
+              <div className="test-card"></div>
             </div>
           </div>
         </div>
