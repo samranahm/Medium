@@ -869,13 +869,13 @@ h2 {
   margin-top: 60px;
 }
 
-#two-btns-con{
+.two-btns-con{
   display: flex;
   gap: 8px;
   width: 100%;
 }
 
-#two-btns-con button{
+.two-btns-con button{
  background-color: transparent;
  border-radius: 20px;
  padding: 12px 30px;
@@ -895,7 +895,6 @@ h2 {
   align-items: center;
   height: fit-content;
   justify-content: space-evenly;
-  border-bottom: 1px solid #e0dada;
   padding:50px 0px;
 }
 
@@ -965,4 +964,101 @@ h2 {
   font-size: 1.7em;
   padding: 30px 0px 0px 17px;
   margin: 0px;
+}
+
+.card-row-con-second{
+  display: flex;
+  align-items: flex-end !important;
+  height: fit-content;
+  width: 88%;
+  position: relative;
+  left: 46px;
+  border-bottom: 1px solid #e0dada;
+  border-top: 1px solid #e0dada;
+
+  justify-content: space-between;
+}
+
+.second-left{
+  
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+  padding: 10px 5px 70px 5px;
+  gap: 10px;
+}
+
+.multi-imgs{
+  display: flex;
+  max-width: 90px;
+  height: 50px;
+  gap: 3px;
+  margin-bottom: 6px;
+}
+
+.upper-1{
+  width: 60%;
+  object-fit: cover;
+}
+
+.upper-2{
+  object-fit: cover;
+  width: 25%;
+}
+
+.upper-3{
+  object-fit: cover;
+  width: 15%;
+}
+
+.imgs-and-text{
+  display: flex;
+  align-items:flex-end;
+  gap: 15px;
+}
+
+.imgs-and-h5 h5{
+  margin-top: 15px;
+}
+
+.span-text{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.span-text span{
+  color: #6b6b6b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.dot{
+  padding-bottom: 3px;
+}
+
+.h5-and-span{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  justify-content: center;
+}
+
+.h5{
+  margin: 5px 0px;
+}
+
+#last-btn{
+  width: 100%;
+  border-top:1px solid rgb(170, 170, 170) ;
+}
+
+#recommendations-btn{
+  background-color: transparent;
+ border-radius: 20px;
+ padding: 12px 30px;
+ border: 0.5px solid black;
+ margin-top: 30px;
+ margin-left: 55px;
 }
