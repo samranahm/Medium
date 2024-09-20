@@ -1,12 +1,12 @@
 import './App.css';
-import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
 import About from './components/About';
 import Career from './components/Career';
 import Status from './components/Status';
-
+import HomeFooter from './components/Home_footer';
 
 
 // Media Import
@@ -36,18 +36,7 @@ function App() {
         </div>
           <div className="img-container"></div>
       </div>
-      <footer className="app-footer">
-        <Link to={"/help"} className="footer-button">Help</Link>
-        <Link to={"/status"} className="footer-button">Status</Link>
-        <Link to={"/about"} className="footer-button">About</Link>
-        <Link to={"/career"} className="footer-button">Career</Link>
-        <Link to={"/press"} className="footer-button">Press</Link>
-        <Link to={"/blog"} className="footer-button">Blog</Link>
-        <Link to={"privacy"} className="footer-button">Privacy</Link>
-        <Link to={"/terms"} className="footer-button">Terms</Link>
-        <Link to={"/text-to-speach"} className="footer-button">Text to speach</Link>
-        <Link to={"/teams"} className="footer-button">Teams</Link>
-      </footer>
+      <HomeFooter />
     </div>
 
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import LoginSignupModal from "./Model";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import HomeFooter from "./Home_footer";
 
 // Media import
 
@@ -14,7 +15,6 @@ import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-
 
 function Career({ logo }) {
   useEffect(() => {
@@ -40,7 +40,11 @@ function Career({ logo }) {
         </div>
       </header>
       <div className="body">
-        <img className="career-img" src="media/pictures/careerImg.jpg" alt="Medium Team" />
+        <img
+          className="career-img"
+          src="media/pictures/careerImg.jpg"
+          alt="Medium Team"
+        />
         <div className="career-content">
           <div id="main-text">
             <h2>Career at Medium</h2>
@@ -50,7 +54,11 @@ function Career({ logo }) {
 
             <div className="career-jobs">
               <div id="profile-logo">
-                <img className="profile-img" src="media/pictures/crop-logo.png" alt="profile" />
+                <img
+                  className="profile-img"
+                  src="media/pictures/crop-logo.png"
+                  alt="profile"
+                />
                 <img
                   className="second-profile-img profile-img"
                   src="media/pictures/crop-logo.png"
@@ -173,12 +181,24 @@ function Career({ logo }) {
         <div id="pictures-container">
           <div id="upper-con">
             <img src="media/pictures/1.jpg" alt="FirsImg" />
-            <img src="media/pictures/2.jpg"alt="SecondImg" />
+            <img src="media/pictures/2.jpg" alt="SecondImg" />
           </div>
           <div id="lower-con">
-            <img className="second-grp" src="media/pictures/3.jpg"alt="ThridImg" />
-            <img className="thrid-grp" src="media/pictures/4.jpg" alt="FourthImg" />
-            <img className="second-grp" src="media/pictures/5.jpg" alt="FifthImg" />
+            <img
+              className="second-grp"
+              src="media/pictures/3.jpg"
+              alt="ThridImg"
+            />
+            <img
+              className="thrid-grp"
+              src="media/pictures/4.jpg"
+              alt="FourthImg"
+            />
+            <img
+              className="second-grp"
+              src="media/pictures/5.jpg"
+              alt="FifthImg"
+            />
           </div>
         </div>
         <div className="career-content">
@@ -211,7 +231,11 @@ function Career({ logo }) {
           </div>
         </div>
         <div id="second-img-con">
-          <img id="second-img" src="media/pictures/career-second-img.jpg" alt="pic" />
+          <img
+            id="second-img"
+            src="media/pictures/career-second-img.jpg"
+            alt="pic"
+          />
         </div>
         <div className="career-content-pi">
           <h3 className="pd-ha head">Learn more about Medium</h3>
@@ -326,7 +350,11 @@ function Career({ logo }) {
                   </div>
                 </div>
               </div>
-              <img id="building-pic" src="media/pictures/building.jpg"  alt="building pic" />
+              <img
+                id="building-pic"
+                src="media/pictures/building.jpg"
+                alt="building pic"
+              />
             </div>
             <div className="two-btns-con">
               <button>See all from Jobs @ Medium</button>
@@ -341,9 +369,17 @@ function Career({ logo }) {
               <div className="card card-custom">
                 {" "}
                 {/* R1-C1*/}
-                <img className="card-img" src="media/pictures/s-resume.jpg" alt="resume" />
+                <img
+                  className="card-img"
+                  src="media/pictures/s-resume.jpg"
+                  alt="resume"
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/alexander.png" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/alexander.png"
+                    alt=""
+                  />
                   <p>Alexander Nguyen in Level up coding</p>
                 </div>
                 <h3>
@@ -371,9 +407,17 @@ function Career({ logo }) {
               <div className="card card-custom">
                 {" "}
                 {/* R1-C2*/}
-                <img className="card-img" src="media/pictures/zulie.jpg" alt="" />
+                <img
+                  className="card-img"
+                  src="media/pictures/zulie.jpg"
+                  alt=""
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/zulie_dp.png" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/zulie_dp.png"
+                    alt=""
+                  />
                   <p>Zulie Rane in Zulie Writes</p>
                 </div>
                 <h3>
@@ -455,9 +499,7 @@ function Career({ logo }) {
                     />
                   </div>
                   <div className="h5-and-span">
-                    <h5 className="h5">
-                      How to find a mentor
-                    </h5>
+                    <h5 className="h5">How to find a mentor</h5>
                     <div className="span-text">
                       <span>11 Stories </span>
                       <span className="dot"> . </span>
@@ -466,7 +508,7 @@ function Career({ logo }) {
                   </div>
                 </div>
               </div>
-             
+
               <div className="second-left">
                 {" "}
                 {/*second right upper*/}
@@ -489,9 +531,7 @@ function Career({ logo }) {
                     />
                   </div>
                   <div className="h5-and-span">
-                    <h5 className="h5">
-                     Stories to Help You Level-Up at Work
-                    </h5>
+                    <h5 className="h5">Stories to Help You Level-Up at Work</h5>
                     <div className="span-text">
                       <span>18 Stories </span>
                       <span className="dot"> . </span>
@@ -530,16 +570,23 @@ function Career({ logo }) {
                   </div>
                 </div>
               </div>
-              
             </div>
 
             <div className="card-row-con">
               <div className="card card-custom">
                 {" "}
                 {/* R2-C1*/}
-                <img className="card-img" src="media/pictures/rebecca_img.jpg" alt="" />
+                <img
+                  className="card-img"
+                  src="media/pictures/rebecca_img.jpg"
+                  alt=""
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/rebecca_dp.jpg" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/rebecca_dp.jpg"
+                    alt=""
+                  />
                   <p>Rebeca in ILLUMINATION</p>
                 </div>
                 <h3>
@@ -566,9 +613,17 @@ function Career({ logo }) {
               <div className="card card-custom">
                 {" "}
                 {/* R2-C2*/}
-                <img className="card-img" src="media/pictures/r2-c2gif.gif" alt="" />
+                <img
+                  className="card-img"
+                  src="media/pictures/r2-c2gif.gif"
+                  alt=""
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/gif_card_logo.jpg" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/gif_card_logo.jpg"
+                    alt=""
+                  />
                   <p>Devon Price in Human Parts</p>
                 </div>
                 <h3>Laziness Does Not Exist</h3>
@@ -594,13 +649,21 @@ function Career({ logo }) {
                 </div>
               </div>
             </div>
-            <div className="card-row-con">
+            <div className="card-row-con bdr">
               <div className="card card-custom">
                 {" "}
                 {/* R3-C1*/}
-                <img className="card-img" src="media/pictures/hazel_img.jpg" alt="" />
+                <img
+                  className="card-img"
+                  src="media/pictures/hazel_img.jpg"
+                  alt=""
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/hazel_dp.jpg" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/hazel_dp.jpg"
+                    alt=""
+                  />
                   <p>Hazel paradise</p>
                 </div>
                 <h3>How I Create Passive Income With No Money</h3>
@@ -625,9 +688,17 @@ function Career({ logo }) {
               <div className="card card-custom">
                 {" "}
                 {/* R3-C2*/}
-                <img className="card-img" src="media/pictures/bryan_img.jpg" alt="" />
+                <img
+                  className="card-img"
+                  src="media/pictures/bryan_img.jpg"
+                  alt=""
+                />
                 <div className="icon-and-text">
-                  <img className="card-profile" src="media/pictures/bryan.jpg" alt="" />
+                  <img
+                    className="card-profile"
+                    src="media/pictures/bryan.jpg"
+                    alt=""
+                  />
                   <p>Bryan Ye in Better Humans</p>
                 </div>
                 <h3>How To Wake Up at 5 A.M. Every Day</h3>
@@ -654,13 +725,15 @@ function Career({ logo }) {
               </div>
             </div>
             
-            <div id="last-btn">
-            <button id="recommendations-btn">See more recommendations</button>
-            </div>
-            
           </div>
+          <div id="last-btn">
+              <button id="recommendations-btn">See more recommendations</button>
+            </div>
+            <HomeFooter />
         </div>
+        
       </div>
+
       <LoginSignupModal />
     </div>
   );

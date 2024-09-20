@@ -311,6 +311,7 @@ h2 {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
+  
 }
 .career-body {
   background-color: #ffffff;
@@ -731,7 +732,9 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
+
 
 .cards-con-content {
   width: 54%;
@@ -898,6 +901,10 @@ h2 {
   padding:50px 0px;
 }
 
+.bdr{
+  border-bottom: 1px solid rgb(230, 230, 230); 
+}
+
 .card-custom{
   background-color: transparent !important;
   border: none !important;
@@ -1051,14 +1058,17 @@ h2 {
 
 #last-btn{
   width: 100%;
-  border-top:1px solid rgb(170, 170, 170) ;
+  
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding: 30px 0px 110px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 #recommendations-btn{
-  background-color: transparent;
- border-radius: 20px;
+ background-color: transparent;
+ border-radius: 25px;
  padding: 12px 30px;
- border: 0.5px solid black;
- margin-top: 30px;
- margin-left: 55px;
+ border: 1px solid black;
+ margin-right: 560px;
 }
