@@ -11,7 +11,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import careerLogo from '../media/pictures/logo.png';
 
 function LoginSignupModal({logo}) {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   const handleClose = () => {
     setShowModal(false);
@@ -34,7 +34,7 @@ function LoginSignupModal({logo}) {
           <p> <FontAwesomeIcon icon={faCheck} />  Distraction-free reading. No ads.</p> 
           <p> <FontAwesomeIcon icon={faCheck}/>  Organize your knowledge with lists and highlights.</p> 
           <p> <FontAwesomeIcon icon={faCheck}/>  Tell your story. Find your audience.</p> 
-         <button className="model-btn signup">Sign up for free</button>
+         <button className="sign signup">Sign up for free</button>
         </div>
         <div className="card">
           <h3 className="hThree">Membership</h3>
@@ -43,7 +43,7 @@ function LoginSignupModal({logo}) {
           <p> <FontAwesomeIcon icon={faCheck}/>  Earn money for your writing</p> 
           <p> <FontAwesomeIcon icon={faCheck}/>  Listen to audio narrations</p> 
           <p> <FontAwesomeIcon icon={faCheck}/>  Read offline with the Medium app</p>         
-          <button className="model-btn">Try for $%/month</button>
+          <button className="try">Try for 0$/month</button>
         </div>
        </div>
       </div>

@@ -87,7 +87,7 @@
 }
 
 /* Buttons */
-.model-btn {
+.sign {
   cursor: pointer;
   background-color: black;
   color: #ffffff;
@@ -99,17 +99,28 @@
   transition: background-color 0.3s, transform 0.3s; 
   min-width: 95%;
   position: relative;
-  top: 15px;
+  top: 62px;
 }
 
+.try{
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  text-align: center; 
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s; 
+  min-width: 95%;
+  position: relative;
+  top: 30px;
+}
+
+.try:hover,
 .model-btn:hover {
   background-color: #333; 
   transform: scale(1.05);
-}
-
-.signup {
-  position: relative;
-  top: 65px;
 }
 
 .signup:hover {
