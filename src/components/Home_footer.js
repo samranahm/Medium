@@ -7,7 +7,7 @@ function HomeFooter(){
         <Link to={"/status"} className="footer-button">Status</Link>
         <Link to={"/about"} className="footer-button">About</Link>
         <Link to={"/career"} className="footer-button">Career</Link>
-        <Link to={"/press"} className="footer-button">Press</Link>
+        <a href="mailto:pressinquiries@medium.com" className='footer-button'>Press</a>
         <Link to={"/blog"} className="footer-button">Blog</Link>
         <Link to={"privacy"} className="footer-button">Privacy</Link>
         <Link to={"/terms"} className="footer-button">Terms</Link>
