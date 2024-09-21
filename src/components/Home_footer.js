@@ -11,7 +11,7 @@ function HomeFooter(){
         <Link to={"/blog"} className="footer-button">Blog</Link>
         <Link to={"privacy"} className="footer-button">Privacy</Link>
         <Link to={"/terms"} className="footer-button">Terms</Link>
-        <Link to={"/text-to-speach"} className="footer-button">Text to speach</Link>
+        <Link to={"/text-to-speech"} className="footer-button">Text to speach</Link>
         <Link to={"/teams"} className="footer-button">Teams</Link>
       </footer>
     )
